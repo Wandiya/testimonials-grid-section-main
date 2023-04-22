@@ -39,89 +39,89 @@ img {
     overflow: hidden;
 }
 
-.heading {
+.header_text {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.name-title-div {
+.title-name {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
 }
 
-.name {
+.person-name {
     opacity: 100%;
     font-size: 1.1rem;
 }
 
-title {
+.status {
     opacity: 50%;
     font-size: 0.9rem;
 }
 
-.bigger-text {
+.paragraph_1 {
     font-weight: 600;
     margin-top: 15px;
     font-size: 1.2rem;
 }
 
-.smaller-text {
+.paragraph_2 {
     font-weight: 500;
     opacity: 70%;
     /* margin-top: 5px; */
 }
 
-.left-top-side {
+.first-content_details {
     display: flex;
     flex-direction: column;
 }
 
-.left-bottom-side {
+.second-content {
     display: flex;
     flex-direction: column;
 }
 
-.left-top-side .card-0 {
+.first-content_details .article-1 {
     background: var(--violet);
     color: var(--white);
     flex-basis: 70%;
 }
 
-.left-top-side .card-1 {
+.first-content_details .article-2 {
     flex-basis: 30%;
     background-color: var(--very-dark-grayish-blue);
     color: var(--white);
 }
 
-.left-bottom-side .card-0 {
+.second-content .article-1 {
     background-color: var(--very-dark-grayish-blue);
     color: var(--white);
     flex-basis: 30%;
 }
 
-.left-bottom-side .card-1 {
+.second-content .article-2 {
     background-color: var(--very-dark-blackish-blue);
     color: var(--white);
     flex-basis: 70%;
 }
 
-.left-bottom-side .card-0 .name-title-div {
+.second-content .article-1 .title-name {
     color: var(--very-dark-blackish-blue);
 }
 
-.right-side .card-0 .name-title-div {
+.third-content .article-1 .title-name {
     color: var(--very-dark-blackish-blue);
 }
 
-.right-side .card-0 {
+.third-content .article-1 {
     background-color: var(--white);
     color: var(--very-dark-grayish-blue);
 }
 
-.card-0,
-.card-1 {
+.article-1,
+.article-2 {
     padding: 20px;
     margin-top: 22px;
     border-radius: 10px;
@@ -147,25 +147,25 @@ address .attribution a {
         max-width: 1440px;
         max-height: 900px;
     }
-    .left-top-side {
+    .first-content_details {
         flex-direction: row;
     }
-    .left-top-side .card-1 {
+    .first-content_details .article-2 {
         margin-left: 20px;
     }
-    .left-bottom-side {
+    .second-content {
         flex-direction: row;
     }
-    .left-bottom-side .card-1 {
+    .second-content .article-2 {
         margin-left: 20px;
     }
-    .right-side .card-0 {
+    .third-content .article-1 {
         height: 100%;
     }
-    .left-side {
+    .first-content {
         flex-basis: 75%;
     }
-    .right-side {
+    .third-content {
         flex-basis: 25%;
         margin-left: 20px;
     }
