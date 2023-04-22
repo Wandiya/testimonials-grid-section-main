@@ -1,3 +1,5 @@
+/* Reset */
+
 *,
 *::before,
 *::after {
@@ -5,6 +7,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* variables */
 
 :root {
     /* primary colors */
@@ -19,6 +24,9 @@
     --font-f: font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+
+/* Base styles */
+
 html {
     font-size: var(--fs);
     background-color: var(--light-grayish-blue);
@@ -32,12 +40,18 @@ img {
     height: 25px;
 }
 
+
+/*Utility styles */
+
 .container {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     overflow: hidden;
 }
+
+
+/* Mobile styles */
 
 .header_text {
     display: flex;
@@ -61,6 +75,9 @@ img {
     font-size: 0.9rem;
 }
 
+
+/* first-content */
+
 .paragraph_1 {
     font-weight: 600;
     margin-top: 15px;
@@ -78,9 +95,10 @@ img {
     flex-direction: column;
 }
 
-.second-content {
-    display: flex;
-    flex-direction: column;
+.first-content_details .article-2 {
+    flex-basis: 30%;
+    background-color: var(--very-dark-grayish-blue);
+    color: var(--white);
 }
 
 .first-content_details .article-1 {
@@ -89,10 +107,12 @@ img {
     flex-basis: 70%;
 }
 
-.first-content_details .article-2 {
-    flex-basis: 30%;
-    background-color: var(--very-dark-grayish-blue);
-    color: var(--white);
+
+/* second-content */
+
+.second-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .second-content .article-1 {
@@ -111,6 +131,9 @@ img {
     color: var(--very-dark-blackish-blue);
 }
 
+
+/* third-content */
+
 .third-content .article-1 .title-name {
     color: var(--very-dark-blackish-blue);
 }
@@ -122,23 +145,27 @@ img {
 
 .article-1,
 .article-2 {
-    padding: 20px;
-    margin-top: 22px;
+    padding: 1.25rem;
+    margin-top: 1.5rem;
     border-radius: 10px;
 }
 
-address .attribution a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5rem;
+
+/* attribution */
+
+.attribution {
+    text-align: center;
+    margin-bottom: 2rem;
     font-size: 11px;
+    /* margin-left: 10rem; */
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+
+/* Desktop styles */
 
 @media (min-width:738px) {
     .container {
