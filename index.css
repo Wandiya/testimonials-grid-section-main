@@ -56,11 +56,6 @@ img {
     font-size: 1.1rem;
 }
 
-address .attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
 title {
     opacity: 50%;
     font-size: 0.9rem;
@@ -75,7 +70,7 @@ title {
 .smaller-text {
     font-weight: 500;
     opacity: 70%;
-    margin-top: 20px;
+    /* margin-top: 5px; */
 }
 
 .left-top-side {
@@ -137,11 +132,41 @@ address .attribution a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-block: .5rem;
+    margin-bottom: 5rem;
+    font-size: 11px;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
-@media (min-width:738px) {}
+@media (min-width:738px) {
+    .container {
+        flex-direction: row;
+        margin: 5% 15%;
+        max-width: 1440px;
+        max-height: 900px;
+    }
+    .left-top-side {
+        flex-direction: row;
+    }
+    .left-top-side .card-1 {
+        margin-left: 20px;
+    }
+    .left-bottom-side {
+        flex-direction: row;
+    }
+    .left-bottom-side .card-1 {
+        margin-left: 20px;
+    }
+    .right-side .card-0 {
+        height: 100%;
+    }
+    .left-side {
+        flex-basis: 75%;
+    }
+    .right-side {
+        flex-basis: 25%;
+        margin-left: 20px;
+    }
+}
