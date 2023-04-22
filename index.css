@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* primary colors */
+    --violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    /* Neuraal colors */
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    --fs: 14px;
+    --font-f: font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+html {
+    font-size: var(--fs);
+    background-color: var(--light-grayish-blue);
+    font-family: var(--font-f);
+}
+
+img {
+    border-radius: 30px;
+    border: 3px solid var(--violet);
+    width: 25px;
+    height: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name-title-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.name {
+    opacity: 100%;
+    font-size: 1.1rem;
+}
+
+address .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+title {
+    opacity: 50%;
+    font-size: 0.9rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
