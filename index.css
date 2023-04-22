@@ -66,6 +66,12 @@ title {
     font-size: 0.9rem;
 }
 
+.bigger-text {
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
