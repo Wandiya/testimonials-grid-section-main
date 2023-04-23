@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://wandiya.github.io/testimonials-grid-section-main/)
+- Live Site URL: [https://wandiya.github.io/testimonials-grid-section-main/](https://wandiya.github.io/testimonials-grid-section-main/)
 
 ## My process
 
@@ -98,8 +98,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [https://wandiya.github.io/testimonials-grid-section-main](https://www.your-site.com)
+- Frontend Mentor - [@Wandiya](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@WandiyaJames](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
