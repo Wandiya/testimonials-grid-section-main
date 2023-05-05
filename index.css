@@ -48,6 +48,7 @@ img {
     flex-direction: column;
     border-radius: 10px;
     overflow: hidden;
+    padding: 20px 20px 20px 20px;
 }
 
 
@@ -168,7 +169,7 @@ img {
 
 /* Desktop styles */
 
-@media (min-width:738px) {
+@media (min-width:600px) {
     .container {
         flex-direction: row;
         margin: 5% 15%;
