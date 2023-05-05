@@ -79,8 +79,8 @@ flexbox shorthand properties and lots more
 ## Author
 
 - Website - [https://wandiya.github.io/testimonials-grid-section-main](https://www.your-site.com)
-- Frontend Mentor - [@Wandiya](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@WandiyaJames](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Wandiya](https://www.frontendmentor.io/home)
+- Twitter - [@WandiyaJames](https://twitter.com/home)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
